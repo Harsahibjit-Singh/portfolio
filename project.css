@@ -1,0 +1,194 @@
+@keyframes animationthank{
+    0%{color:violet;}
+    10%{color:indigo;}
+    20%{color:blue;}
+    30%{color:green;}
+    40%{color:yellow;}
+    50%{color:orange;}
+    60%{color:orangered;}
+    70%{color:red;}
+    80%{color:aqua;}
+    90%{color:brown;}
+    95%{color:darkcyan}
+    100%{color:white;}
+}
+body{
+    background-color: #3f3c3c;
+    border:10px solid #27BAAE;
+    border-radius: 40px;
+    height:1300px;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke; 
+}
+.navbar{
+    height:85px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:whitesmoke;
+    border-bottom: 4px solid #27BAAE;
+    border-left: 2px solid #27BAAE;
+    border-right: 2px solid #27BAAE;
+}
+body:hover .navbar{
+    border-bottom: 4px solid #ffff00;
+    border-left: 2px solid #ffff00;
+    border-right: 2px solid #ffff00;
+}
+#headerp1{
+    position: relative;
+    top:4.5px;
+}
+.navpageops p{
+    display:inline;
+    margin-left:100px;
+    font-size: 1.2rem;
+}
+.pageops:hover{
+    background-color: #ffff00;
+    color:black;
+    border-radius: 15px;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    transition: margin-right 2s, color 1s;
+}
+/* space after header */
+.space{
+    height:80px;
+}
+body:hover{
+    background-color: #cadf9e;
+    border:15px solid #ffff00;
+    border-radius: 50px;
+}
+.proheading{
+    color:#ffff00;
+    font-size: 40px;
+    font-weight:bolder;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+body:hover .proheading{
+    color: red;
+}
+body:hover .proheading:hover {
+    color:#DC851F; 
+    rotate:360deg;
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+.projectdiv{
+    width: 1327px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.txt{
+    width:700px;
+    color:#27BAAE;
+    font-size: 45px;
+    font-weight: 800;
+}
+.projectdiv:hover .txt:hover{
+    width:700px;
+    color:#DC851F;
+    font-size: 50px;
+    font-weight: 800;
+}
+.photodiv{
+    width: 500px;
+    height:300px;
+}
+.photo{
+    width: 500px;
+    height:300px;
+    border-radius: 40px;
+    border: 5px solid #27BAAE;
+}
+.photo:hover{
+    width: 500px;
+    height:300px;
+    border-radius: 20px;
+    border: 5px solid #DC851F;
+}
+.projectdiv:hover .photo{
+    border: 5px solid red;
+}
+.projectdiv:hover .txt{
+    color:red;
+}
+.projectdiv:hover .photo:hover{
+    color:#DC851F;
+    width: 500px;
+    height:300px;
+    border-radius: 20px;
+    border: 5px solid #DC851F;
+}
+.thank{
+height:100px;
+font-size:50px;
+font-weight:bolder;
+align-items: center;
+justify-content:center;
+display:flex;
+animation: animationthank 10s linear 2s infinite;
+}
+footer{
+    height:240px;
+    font-size:25px;
+    font-weight: 800;
+    color: #ffff00;
+}
+body:hover footer{
+    color:red;
+}
+body:hover footer:hover{
+    color: #DC851F;
+}
+.connectopsicons{
+    height:25px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.connectopsicons:hover{
+    height:30px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+.connectops p{
+    display:inline;
+}
+.connectopspro p{
+    display:inline;
+}
+#copyrightpart{
+    width:1327px;
+    height: 25px;
+    font-size:20px;
+    font-weight: 100;
+    /* margin: 50px; */
+    margin-top: 40px;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}
+#create{
+    width:1327px;
+    height: 25px;
+    margin: 0px;
+    font-size:20px;
+    font-weight: 100;
+    color:aqua;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}
