@@ -68,7 +68,7 @@ body:hover{
 }
 .proheading{
     color:#ffff00;
-    font-size: 40px;
+    font-size: 60px;
     font-weight:bolder;
     display:flex;
     align-items: center;
@@ -134,61 +134,61 @@ body:hover .proheading:hover {
     border: 5px solid #DC851F;
 }
 .thank{
-height:100px;
-font-size:50px;
-font-weight:bolder;
-align-items: center;
-justify-content:center;
-display:flex;
-animation: animationthank 10s linear 2s infinite;
-}
-footer{
-    height:240px;
-    font-size:25px;
-    font-weight: 800;
-    color: #ffff00;
-}
-body:hover footer{
-    color:red;
-}
-body:hover footer:hover{
-    color: #DC851F;
-}
-.connectopsicons{
-    height:25px;
-    border-radius: 10px;
-    margin-left: 25px;
-}
-.connectopsicons:hover{
-    height:30px;
-    border-radius: 15px;
-    margin-left: 25px;
-}
-.connectops p{
-    display:inline;
-}
-.connectopspro p{
-    display:inline;
-}
-#copyrightpart{
-    width:1327px;
-    height: 25px;
-    font-size:20px;
-    font-weight: 100;
-    /* margin: 50px; */
-    margin-top: 40px;
+    height:100px;
+    font-size:50px;
+    font-weight:bolder;
     align-items: center;
     justify-content:center;
     display:flex;
-}
-#create{
-    width:1327px;
-    height: 25px;
-    margin: 0px;
-    font-size:20px;
-    font-weight: 100;
-    color:aqua;
-    align-items: center;
-    justify-content:center;
-    display:flex;
-}
+    animation: animationthank 10s linear 2s infinite;
+    }
+    footer{
+        height:240px;
+        font-size:25px;
+        font-weight: 800;
+        color: #ffff00;
+    }
+    body:hover footer{
+        color:red;
+    }
+    body:hover footer:hover{
+        color: #DC851F;
+    }
+    .connectopsicons{
+        height:25px;
+        border-radius: 10px;
+        margin-left: 25px;
+    }
+    .connectopsicons:hover{
+        height:30px;
+        border-radius: 15px;
+        margin-left: 25px;
+    }
+    .connectops p{
+        display:inline;
+    }
+    .connectopspro p{
+        display:inline;
+    }
+    #copyrightpart{
+        width:1327px;
+        height: 25px;
+        font-size:20px;
+        font-weight: 100;
+        /* margin: 50px; */
+        margin-top: 40px;
+        align-items: center;
+        justify-content:center;
+        display:flex;
+    }
+    #create{
+        width:1327px;
+        height: 25px;
+        margin: 0px;
+        font-size:20px;
+        font-weight: 100;
+        color:aqua;
+        align-items: center;
+        justify-content:center;
+        display:flex;
+    }

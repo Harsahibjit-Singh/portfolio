@@ -1,0 +1,155 @@
+@keyframes animationthank{
+    0%{color:violet;}
+    10%{color:indigo;}
+    20%{color:blue;}
+    30%{color:green;}
+    40%{color:yellow;}
+    50%{color:orange;}
+    60%{color:orangered;}
+    70%{color:red;}
+    80%{color:aqua;}
+    90%{color:brown;}
+    95%{color:darkcyan}
+    100%{color:white;}
+}
+body{
+    background-color: #000000;
+    border:10px solid #808080;
+    border-radius: 40px;
+    height:1180px;
+}
+a{
+    text-decoration: none;
+    color:whitesmoke; 
+}
+.navbar{
+    height:85px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:whitesmoke;
+    border-bottom: 4px solid #808080;
+    border-left: 2px solid #808080;
+    border-right: 2px solid #808080;
+}
+body:hover .navbar{
+    border-bottom: 4px solid #ECD444;
+    border-left: 2px solid #ECD444;
+    border-right: 2px solid #ECD444;
+}
+#headerp1{
+    position: relative;
+    top:4.5px;
+}
+.navpageops p{
+    display:inline;
+    margin-left:100px;
+    font-size: 1.2rem;
+}
+.pageops:hover{
+    background-color: #ECD444;
+    color:#6e2594;
+    border-radius: 15px;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    transition: margin-right 2s, color 1s;
+}
+/* space after header */
+.space{
+    height:80px;
+}
+body:hover{
+    background-color: #6e2594;
+    border:15px solid #ffff00;
+    border-radius: 50px;
+}
+.proheading{
+    color:#808080;
+    font-size: 60px;
+    font-weight:bolder;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+body:hover .proheading{
+    color: #ecd444;
+}
+body:hover .proheading:hover {
+    color:orange; 
+    rotate: y 360deg;
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 10s;
+}
+.updationpart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 900;
+    color: white;
+}
+.thank{
+    height:100px;
+    font-size:50px;
+    font-weight:bolder;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+    animation: animationthank 10s linear 2s infinite;
+}
+footer{
+    height:240px;
+    font-size:25px;
+    font-weight: 800;
+    color: #808080;
+}
+body:hover footer{
+    color:#ecd444;
+}
+body:hover footer:hover{
+    color:chartreuse
+}
+.connectopsicons{
+    height:25px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.connectopsicons:hover{
+    height:30px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+.connectops p{
+    display:inline;
+}
+.connectopspro p{
+    display:inline;
+}
+#copyrightpart{
+    width:1327px;
+    height: 25px;
+    font-size:20px;
+    font-weight: 100;
+    /* margin: 50px; */
+    margin-top: 40px;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}
+#create{
+    width:1327px;
+    height: 25px;
+    margin: 0px;
+    font-size:20px;
+    font-weight: 100;
+    color:aqua;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}

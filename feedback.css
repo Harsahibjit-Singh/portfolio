@@ -1,0 +1,286 @@
+@keyframes animationthank{
+    0%{color:violet;}
+    10%{color:indigo;}
+    20%{color:blue;}
+    30%{color:green;}
+    40%{color:yellow;}
+    50%{color:orange;}
+    60%{color:orangered;}
+    70%{color:red;}
+    80%{color:aqua;}
+    90%{color:brown;}
+    95%{color:darkcyan}
+    100%{color:white;}
+}
+a{
+    text-decoration: none;
+    color:whitesmoke; 
+}
+/* For whole Body */
+body{
+    background-color: #335c67;
+    border:10px solid #fff3b0;
+    border-radius: 40px;
+    height: 1800px;
+}
+body:hover{
+    background-color: #540b0e;
+    border:15px solid #e09f3e;
+    border-radius: 50px;
+    height: 1880px;
+}
+/* Navigation bar */
+.navbar{
+    height:85px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;  
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color:whitesmoke;
+    border-bottom: 4px solid #fff3b0;
+    border-left: 2px solid #fff3b0;
+    border-right: 2px solid #fff3b0;
+}
+body:hover .navbar{
+    border-bottom: 4px solid #e09f3e;
+    border-left: 2px solid #e09f3e;
+    border-right: 2px solid #e09f3e;
+}
+#headerp1{
+    position: relative;
+    top:4.5px;
+}
+.navpageops p{
+    display:inline;
+    margin-left:100px;
+    font-size: 1.2rem;
+}
+.pageops:hover{
+    background-color: #e09f3e;
+    color:#9e2a2b;
+    border-radius: 15px;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    transition: margin-right 2s, color 1s;
+}
+/* space after header */
+.space{
+    height:80px;
+}
+/* Main heading on which transition has been applied */
+.proheading{
+    color:#ffff00;
+    font-size: 60px;
+    font-weight:bolder;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+body:hover .proheading{
+    color: #e09f3e;
+}
+body:hover .proheading:hover {
+    color:yellow; 
+    rotate:45deg;
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 2s;
+}
+/* Middle information given about feedback form */
+.info{
+    color:#e09f3e;
+    font-size: 1.2rem;   
+}
+.info:hover{
+    color:white;
+    font-size: 1.5rem;
+}
+.info1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Feedback form heading */
+.proheading2{
+    color:#ffff00;
+    font-size: 30px;
+    font-weight:bolder;
+    padding-bottom: 50px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+body:hover .proheading2{
+    color: #e09f3e;
+}
+body:hover .proheading2:hover {
+    color:yellow; 
+    font-size: 35px;
+}
+/* Name of viewer and email entering part */
+.inputnamail{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inpute{
+    background-color:#3f3c3c;
+    color: aqua;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+body:hover .inpute{
+    color: #540b0e;
+    font-weight: bolder;
+    background-color: #e09f3e;
+    border: 2px solid #e09f3e;
+    border-radius:10px;  
+}
+body:hover .inpute:hover{
+    font-size: 20px;
+}
+/* Radio button yes/no including question have you met harsahib */
+.rbutton{
+    color: #ffff00;
+}
+body:hover .rbutton{
+    color:#e09f3e;
+}
+/* Radio button question have you met harsahib */
+
+.radiobutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-size: 20px;
+}
+/* Radio button yes/no excluding question have you met harsahib */
+.radiobutton1{
+    margin-left: 600px;
+    padding-bottom: 25px;
+}
+/* Div containing Feedback text area */
+.inputfe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Feedback text area */
+.inputta{
+    background-color:#3f3c3c;
+    color: aqua ;
+    border:7px solid #ffff00;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+body:hover .inputta{
+    background-color:#fff3b0;
+    color:  #9E2A2B;
+    font-size: 15px;
+    border:7px solid ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* Div containing submit button */
+.inputsub{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* submit button */
+.inputsub1{
+    width: 840px;
+    background-color:#ffff00;
+    color: aqua;
+    border:7px solid #ffff00;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+body:hover .inputsub1{
+    width: 942px;
+    background-color:#9E2A2B;
+    color: #e09f3e;
+    font-size: 15px;
+    font-weight: 900;
+    border:7px solid #9E2A2B;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* Thank part */
+.thank{
+    height:100px;
+    font-size:50px;
+    font-weight:bolder;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+    animation: animationthank 10s linear 2s infinite;
+    }
+/* footer */
+footer{
+    height:240px;
+    font-size:25px;
+    font-weight: 800;
+    color: #ffff00;
+}
+body:hover footer{
+    color:#fff3b0;
+}
+body:hover footer:hover{
+    color: #DC851F;
+}
+.connectopsicons{
+    height:25px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.connectopsicons:hover{
+    height:30px;
+    border-radius: 15px;
+    margin-left: 25px;
+}
+/* connect */
+.connectops p{
+    display:inline;
+}
+/* professional connect */
+.connectopspro p{
+    display:inline;
+}
+/* copyright */
+#copyrightpart{
+    width:1327px;
+    height: 25px;
+    font-size:20px;
+    font-weight: 100;
+    /* margin: 50px; */
+    margin-top: 40px;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}
+/* created by hasahibjit singh */
+#create{
+    width:1327px;
+    height: 25px;
+    margin: 0px;
+    font-size:20px;
+    font-weight: 100;
+    color:aqua;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+}
